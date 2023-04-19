@@ -9,13 +9,13 @@ module clock_div_tb();
   // Inputs
   logic clock_i, resetn_i;
   // Outputs
-  logic clock_div_o;
+  logic clock_div_25Mhz_o;
   
   // Design under test
-  clock_div #(.CLK_DIV_C(4), .CLK_DIV_COUNT_WIDTH_C(3)) DUT (
-    .clock_i     ( clock_i     ),
-    .resetn_i    ( resetn_i    ),
-    .clock_div_o ( clock_div_o )
+  clock_div DUT (
+    .clock_i           ( clock_i           ),
+    .resetn_i          ( resetn_i          ),
+    .clock_div_25Mhz_o ( clock_div_25Mhz_o )
   );
 
   // Clock generation - nominal source clock is 100 MHz
@@ -24,7 +24,7 @@ module clock_div_tb();
     clock_i = 0;
     forever begin
       #5; // Half target period
-      clock_i = !clock_i;
+      clock_i = ~clock_i;
     end
   end
 
