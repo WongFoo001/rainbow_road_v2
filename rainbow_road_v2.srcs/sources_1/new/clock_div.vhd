@@ -53,5 +53,4 @@ end process;
 
 -- Drive output 
 clock_div_25Mhz_o <= clock_div_r;
-
 end rtl;
