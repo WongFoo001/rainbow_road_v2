@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="clock_div_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="clock_div_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="10.882 ns"></ZoomStartTime>
+      <ZoomEndTime time="218.863 ns"></ZoomEndTime>
+      <Cursor1Time time="35.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="146"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/clock_div_tb/clock_i" type="logic">
+      <obj_property name="ElementShortName">clock_i</obj_property>
+      <obj_property name="ObjectShortName">clock_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clock_div_tb/resetn_i" type="logic">
+      <obj_property name="ElementShortName">resetn_i</obj_property>
+      <obj_property name="ObjectShortName">resetn_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clock_div_tb/clock_div_25Mhz_o" type="logic">
+      <obj_property name="ElementShortName">clock_div_25Mhz_o</obj_property>
+      <obj_property name="ObjectShortName">clock_div_25Mhz_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clock_div_tb/clock_valid_o" type="logic">
+      <obj_property name="ElementShortName">clock_valid_o</obj_property>
+      <obj_property name="ObjectShortName">clock_valid_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clock_div_tb/DUT/clock_count_r" type="other">
+      <obj_property name="ElementShortName">clock_count_r</obj_property>
+      <obj_property name="ObjectShortName">clock_count_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clock_div_tb/DUT/clock_div_r" type="logic">
+      <obj_property name="ElementShortName">clock_div_r</obj_property>
+      <obj_property name="ObjectShortName">clock_div_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clock_div_tb/DUT/clock_valid_r" type="logic">
+      <obj_property name="ElementShortName">clock_valid_r</obj_property>
+      <obj_property name="ObjectShortName">clock_valid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clock_div_tb/DUT/clock_train_r" type="other">
+      <obj_property name="ElementShortName">clock_train_r</obj_property>
+      <obj_property name="ObjectShortName">clock_train_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clock_div_tb/DUT/CLOCK_DIV_C" type="other">
+      <obj_property name="ElementShortName">CLOCK_DIV_C</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_DIV_C</obj_property>
+   </wvobject>
+</wave_config>

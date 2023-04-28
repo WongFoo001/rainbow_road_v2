@@ -9,12 +9,13 @@ module clock_div_tb();
   // Inputs
   logic clock_i, resetn_i;
   // Outputs
-  logic clock_div_25Mhz_o;
+  logic clock_div_25Mhz_o, clock_valid_o;
   
   // Design under test
   clock_div DUT (
     .clock_i           ( clock_i           ),
     .resetn_i          ( resetn_i          ),
+    .clock_valid_o     ( clock_valid_o     ),
     .clock_div_25Mhz_o ( clock_div_25Mhz_o )
   );
 

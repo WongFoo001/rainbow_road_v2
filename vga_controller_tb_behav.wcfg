@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="vga_controller_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="vga_controller_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="72.560015 us"></ZoomEndTime>
+      <Cursor1Time time="12.414398 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="150"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/vga_controller_tb/pix_clock_i" type="logic">
+      <obj_property name="ElementShortName">pix_clock_i</obj_property>
+      <obj_property name="ObjectShortName">pix_clock_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_tb/resetn_i" type="logic">
+      <obj_property name="ElementShortName">resetn_i</obj_property>
+      <obj_property name="ObjectShortName">resetn_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_tb/vsync_o" type="logic">
+      <obj_property name="ElementShortName">vsync_o</obj_property>
+      <obj_property name="ObjectShortName">vsync_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_tb/vsync_count_o" type="array">
+      <obj_property name="ElementShortName">vsync_count_o[8:0]</obj_property>
+      <obj_property name="ObjectShortName">vsync_count_o[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_tb/DUT/vsync_tick_s" type="logic">
+      <obj_property name="ElementShortName">vsync_tick_s</obj_property>
+      <obj_property name="ObjectShortName">vsync_tick_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_tb/DUT/vsync_curr_state_r" type="other">
+      <obj_property name="ElementShortName">vsync_curr_state_r</obj_property>
+      <obj_property name="ObjectShortName">vsync_curr_state_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_tb/hsync_o" type="logic">
+      <obj_property name="ElementShortName">hsync_o</obj_property>
+      <obj_property name="ObjectShortName">hsync_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_tb/hsync_count_o" type="array">
+      <obj_property name="ElementShortName">hsync_count_o[9:0]</obj_property>
+      <obj_property name="ObjectShortName">hsync_count_o[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_controller_tb/DUT/hsync_curr_state_r" type="other">
+      <obj_property name="ElementShortName">hsync_curr_state_r</obj_property>
+      <obj_property name="ObjectShortName">hsync_curr_state_r</obj_property>
+   </wvobject>
+</wave_config>

@@ -94,7 +94,8 @@ begin
 
   -- hsync state machine and counter combinational logic
     -- replace with process(all) when updated to 2022.2
-  process (pix_clock_i, resetn_i, hsync_curr_state_r, hsync_next_state_s, hsync_count_r, hsync_count_s) 
+  --process (pix_clock_i, resetn_i, hsync_curr_state_r, hsync_next_state_s, hsync_count_r, hsync_count_s) 
+  process(all)
   begin
     case (hsync_curr_state_r) is
       ----------------

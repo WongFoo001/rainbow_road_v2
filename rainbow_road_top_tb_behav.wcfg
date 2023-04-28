@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="rainbow_road_top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="rainbow_road_pkg" />
+            <top_module name="rainbow_road_top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="999.996 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="150"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="40" />
+   <wvobject type="divider" fp_name="divider41">
+      <obj_property name="label">INPUTS/OUTPUTS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#00FFFF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/clock_100MHz_i" type="logic">
+      <obj_property name="ElementShortName">clock_100MHz_i</obj_property>
+      <obj_property name="ObjectShortName">clock_100MHz_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/resetn_i" type="logic">
+      <obj_property name="ElementShortName">resetn_i</obj_property>
+      <obj_property name="ObjectShortName">resetn_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/vga_vsync_o" type="logic">
+      <obj_property name="ElementShortName">vga_vsync_o</obj_property>
+      <obj_property name="ObjectShortName">vga_vsync_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/vga_hsync_o" type="logic">
+      <obj_property name="ElementShortName">vga_hsync_o</obj_property>
+      <obj_property name="ObjectShortName">vga_hsync_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/vga_red_o" type="array">
+      <obj_property name="ElementShortName">vga_red_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vga_red_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/vga_blue_o" type="array">
+      <obj_property name="ElementShortName">vga_blue_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vga_blue_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/vga_green_o" type="array">
+      <obj_property name="ElementShortName">vga_green_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vga_green_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider38">
+      <obj_property name="label">TOP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_clock_s" type="logic">
+      <obj_property name="ElementShortName">vga_clock_s</obj_property>
+      <obj_property name="ObjectShortName">vga_clock_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_clk_valid_s" type="logic">
+      <obj_property name="ElementShortName">vga_clk_valid_s</obj_property>
+      <obj_property name="ObjectShortName">vga_clk_valid_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vsync_count_s" type="array">
+      <obj_property name="ElementShortName">vsync_count_s[8:0]</obj_property>
+      <obj_property name="ObjectShortName">vsync_count_s[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/hsync_count_s" type="array">
+      <obj_property name="ElementShortName">hsync_count_s[9:0]</obj_property>
+      <obj_property name="ObjectShortName">hsync_count_s[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/led_count_r" type="other">
+      <obj_property name="ElementShortName">led_count_r</obj_property>
+      <obj_property name="ObjectShortName">led_count_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/led_count_next" type="other">
+      <obj_property name="ElementShortName">led_count_next</obj_property>
+      <obj_property name="ObjectShortName">led_count_next</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider39">
+      <obj_property name="label">CLOCK_DIV</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#FFA500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_clock_div_inst/clock_i" type="logic">
+      <obj_property name="ElementShortName">clock_i</obj_property>
+      <obj_property name="ObjectShortName">clock_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_clock_div_inst/resetn_i" type="logic">
+      <obj_property name="ElementShortName">resetn_i</obj_property>
+      <obj_property name="ObjectShortName">resetn_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_clock_div_inst/clock_valid_o" type="logic">
+      <obj_property name="ElementShortName">clock_valid_o</obj_property>
+      <obj_property name="ObjectShortName">clock_valid_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_clock_div_inst/clock_div_25Mhz_o" type="logic">
+      <obj_property name="ElementShortName">clock_div_25Mhz_o</obj_property>
+      <obj_property name="ObjectShortName">clock_div_25Mhz_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_clock_div_inst/clock_count_r" type="other">
+      <obj_property name="ElementShortName">clock_count_r</obj_property>
+      <obj_property name="ObjectShortName">clock_count_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_clock_div_inst/clock_div_r" type="logic">
+      <obj_property name="ElementShortName">clock_div_r</obj_property>
+      <obj_property name="ObjectShortName">clock_div_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_clock_div_inst/clock_valid_r" type="logic">
+      <obj_property name="ElementShortName">clock_valid_r</obj_property>
+      <obj_property name="ObjectShortName">clock_valid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_clock_div_inst/CLOCK_DIV_C" type="other">
+      <obj_property name="ElementShortName">CLOCK_DIV_C</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_DIV_C</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider40">
+      <obj_property name="label">VGA_CONTROLLER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#FFD700</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_controller_inst/pix_clock_i" type="logic">
+      <obj_property name="ElementShortName">pix_clock_i</obj_property>
+      <obj_property name="ObjectShortName">pix_clock_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_controller_inst/resetn_i" type="logic">
+      <obj_property name="ElementShortName">resetn_i</obj_property>
+      <obj_property name="ObjectShortName">resetn_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_controller_inst/vsync_o" type="logic">
+      <obj_property name="ElementShortName">vsync_o</obj_property>
+      <obj_property name="ObjectShortName">vsync_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_controller_inst/vsync_count_o" type="array">
+      <obj_property name="ElementShortName">vsync_count_o[8:0]</obj_property>
+      <obj_property name="ObjectShortName">vsync_count_o[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_controller_inst/hsync_o" type="logic">
+      <obj_property name="ElementShortName">hsync_o</obj_property>
+      <obj_property name="ObjectShortName">hsync_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_controller_inst/hsync_count_o" type="array">
+      <obj_property name="ElementShortName">hsync_count_o[9:0]</obj_property>
+      <obj_property name="ObjectShortName">hsync_count_o[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_controller_inst/hsync_curr_state_r" type="other">
+      <obj_property name="ElementShortName">hsync_curr_state_r</obj_property>
+      <obj_property name="ObjectShortName">hsync_curr_state_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_controller_inst/hsync_next_state_s" type="other">
+      <obj_property name="ElementShortName">hsync_next_state_s</obj_property>
+      <obj_property name="ObjectShortName">hsync_next_state_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_controller_inst/hsync_count_r" type="other">
+      <obj_property name="ElementShortName">hsync_count_r</obj_property>
+      <obj_property name="ObjectShortName">hsync_count_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_controller_inst/hsync_count_s" type="other">
+      <obj_property name="ElementShortName">hsync_count_s</obj_property>
+      <obj_property name="ObjectShortName">hsync_count_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_controller_inst/vsync_tick_s" type="logic">
+      <obj_property name="ElementShortName">vsync_tick_s</obj_property>
+      <obj_property name="ObjectShortName">vsync_tick_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_controller_inst/vsync_curr_state_r" type="other">
+      <obj_property name="ElementShortName">vsync_curr_state_r</obj_property>
+      <obj_property name="ObjectShortName">vsync_curr_state_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_controller_inst/vsync_next_state_s" type="other">
+      <obj_property name="ElementShortName">vsync_next_state_s</obj_property>
+      <obj_property name="ObjectShortName">vsync_next_state_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_controller_inst/vsync_count_r" type="other">
+      <obj_property name="ElementShortName">vsync_count_r</obj_property>
+      <obj_property name="ObjectShortName">vsync_count_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rainbow_road_top_tb/DUT/vga_controller_inst/vsync_count_s" type="other">
+      <obj_property name="ElementShortName">vsync_count_s</obj_property>
+      <obj_property name="ObjectShortName">vsync_count_s</obj_property>
+   </wvobject>
+</wave_config>
